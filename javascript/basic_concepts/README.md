@@ -19,3 +19,16 @@ Booleans can be a value of 'true' or 'false' (var answerCorrect = true;)
 + = addition | - = subtraction | * = multiplication | / = division | % = modulus | ++ = increment | -- = decrement.
 
 --- Assignment Operators ---
+= (x=y) | += (x=x+y) | -= (x=x-y) | *= (x=x*y) | /= (x=x/y) | %= (x=x%y)
+
+--- Comparison Operators --- 
+Used in logical statements to determine equality or difference between variables or values. They return 'true' or 'false'.
+== (Equal to) | === (Identical to) | != (Not equal to) | !== (Not identical) | > (Greater than) | >= (Greater than or equal to) | < (less than) | <= (less than or equal to)
+
+--- Boolean Operators ---
+Evaluate the expression and return either a 'true' or 'false' result.
+&& = and / || = Returns true / ! = Returns true if operand is false and vice versa.
+
+--- String Operators ---
+Strings can be added together (var firstName = "Ray"; var lastName = "Walker"; document.write(firstName + lastName); // Outputs "Ray Walker")
+
